@@ -13,7 +13,7 @@ const MessageBox = (props) => {
       <ul className="divide-y divide-gray-200">
         <li className="py-3">
           <div className="text-green-800 font-bold">NoteBuddy:</div>
-          <div>Hi, I'm NoteBuddy. How can I help you?</div>
+          <div>Hi, I am NoteBuddy. How can I help you?</div>
         </li>
         {chatMessages.map((message, index) => (
           <li key={index} className="py-3">
