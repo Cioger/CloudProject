@@ -61,7 +61,7 @@ const ChatComponent = () => {
     <div className="max-w-5xl w-full mx-auto my-10">
       <div className="border rounded-lg border-gray-300">
         <div className="text-center text-2xl font-bold py-2 border-b border-gray-300">
-          Curiosity Buddy
+          NoteBuddy
         </div>
         <MessageBox chatMessages={chatMessages} />
         <input
